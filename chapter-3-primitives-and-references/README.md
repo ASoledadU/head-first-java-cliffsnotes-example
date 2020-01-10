@@ -1,4 +1,4 @@
-# Primitives and Refrences
+# Primitives and References
 
 ## Table of Contents
 - Variables Review
@@ -21,13 +21,13 @@ Dog myDog;
 ```
 
 ## Declaring a Variable
-Java cares about the type. It will not compile if the code in question is something like a Giraffe refrencing a Rabbit variable.
+Java cares about the type. It will not compile if the code in question is something like a Giraffe referencing a Rabbit variable.
 Java must have a TYPE
 Java must have a NAME
 ```java
 int count;
 ```
-Variables are containers that are ment to hold something.
+Variables are containers that are meant to hold something.
 
 ## Spillage
 Java will try to prevent `spillage`. If the value is larger than the container then it will cause spillage. But you can put a smaller value into a larger container of course.
@@ -38,7 +38,7 @@ byte b = x;
 ```
 
 ## Do's and Dont's of Variable Naming
-- It must start with a letter, underscore, or dollar sign. 
+- It must start with a letter, underscore, or a dollar sign. 
 You CAN'T start a name with a number.
 - After the first character, you can use numbers as well.
 Just DON'T start it with a number
@@ -49,7 +49,7 @@ Reserved words are keywords that the compiler recognizes.
 EX. `boolean`
 
 ## Declaring Objects
-There are no object variables. There are an object `reference` variable. This reference variable holds the bits that represent a way to access an object. It represenrs only one object. The JVM understands how to use this reference to get to the object. You CAN NOT put an object into a variable.
+There are no object variables. There is an object `reference` variable. This reference variable holds the bits that represent a way to access an object. It represents only one object. The JVM understands how to use this reference to get to the object. You CAN NOT put an object into a variable.
 
 The dot operator (.) is used on the reference variable. The thing `before` the dot is used to say "use this" to get me "this thing", the thing `after` the dot.
 ```java
@@ -71,7 +71,7 @@ Tells the JVM to allocate space for a new object on the heap.
 Assigns the new Dog to the reference variable.
 
 ## Arrays are Objects too
-Arrays are always objects, whether they're declared to hold primitives or object references. But you can have an array object that's declared to hold primitive values. It can hold primitive values but it is not primative itself.
+Arrays are always objects, whether they're declared to hold primitives or object references. But you can have an array object that's declared to hold primitive values. It can hold primitive values but it is not primitive itself.
 1. Declare an int array variable. An array variable is a remote control to an array object.
 ```java
 int[] nums;

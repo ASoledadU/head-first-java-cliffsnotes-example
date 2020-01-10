@@ -41,7 +41,7 @@ class Dog {
 ```java
 class DogTestDrive {
  public static void main (String[] args){
- // step three
+ // visit step three
  }
 }
 ```

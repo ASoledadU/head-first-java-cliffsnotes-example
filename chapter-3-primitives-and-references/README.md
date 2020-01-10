@@ -17,7 +17,7 @@ byte b = 89;
 ```
 Reference variables hold references of objects. This variable can be a class, interface, enum, or an array.
 ```java
-Person myBFF;
+Dog myDog;
 ```
 
 ## Declaring a Variable

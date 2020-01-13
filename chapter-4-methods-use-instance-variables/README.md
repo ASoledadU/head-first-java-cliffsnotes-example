@@ -5,6 +5,7 @@
 - Different Method Behavior
 - Sending Things to a Method
 - Pass-by-Value
+- Encapsulation
 - Bullet Points
 
 ## States and Objects
@@ -31,8 +32,8 @@ d.bark(3); // tells this dog to bark 3 times
 ```
 
 ### Vocabulary 
-Arguments: the things you pass to the methods.
-Parameters: a local variable that can be used inside the body of the method.
+- **Arguments** : the things you pass to the methods.
+- ***Parameters*** : a local variable that can be used inside the body of the method.
 
 A caller `passes` arguments. A method `uses` parameters. If a method takes a parameter , you HAVE to pass it an argument. It must also be of the apporiate type.
 
@@ -96,6 +97,13 @@ void go(int z){
     z = 0; // x doesn't change, even if z does. They are not connected
 }
 ```
+## Encapsulation
+This happens when you leave your instance variables exposed and let others see and possibly alter them! This means reachable with the dot operator.
+```java
+theCat.height = 0; // OH NO!
+```
+To prevent this we need to build setter methods for all the instance variables, and find a way to force other code to call the setters rather than access the data directly. How? With the `public` and `private` access modifiers.
+- Mark instance variables private and provide public getters and setters for access control.
 
 ## Bullet Points
 - Classes define what an object knows and what an object does.
@@ -106,11 +114,3 @@ void go(int z){
 - The number and type of values you pass in must match the order and type of the parameters declared by the method.
 - Values passed in and out of the methods can be implicity promoted to a larger type or cast to a smaller type.
 - A method must declare a return type or a void type.
-
-### Encapsulation
-This happens when you leave your instance variables exposed and let others see and possibly alter them! This means reachable with the dot operator.
-```java
-theCat.height = 0; // OH NO!
-```
-To prevent this we need to build setter methods for all the instance variables, and find a way to force other code to call the setters rather than access the data directly. How? With the `public` and `private` access modifiers.
-- Mark instance variables private and provide public getters and setters for access control.

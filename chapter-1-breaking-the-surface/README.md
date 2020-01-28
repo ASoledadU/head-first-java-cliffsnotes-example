@@ -21,7 +21,7 @@ You'll type a source code file, compile it using the javac complier, then run th
 ## Code Structure in Java
 The code structure of Java is like a jawbreaker. It has multiple layers that encapsulates one another. Starting from the outer most layer to the deepest is:
 1. Source File
-2. Class File
+2. Class
 3. Methods
 4. Statements
 
@@ -35,7 +35,7 @@ public class Dog {
 ```
 
 ### What goes in a Class?
-A class has one or more `methods`. In the Dog class, the bark method will hold instructions for how the Dog should bark. Your methods must be declared inside a class.
+A class has zero or more `methods`. In the Dog class, the bark method will hold instructions for how the Dog should bark. Your methods must be declared inside a class.
 Put `methods` in a class.
 ```java
 public class Dog {

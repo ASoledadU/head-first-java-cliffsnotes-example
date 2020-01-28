@@ -21,6 +21,8 @@ Instance variables: things an object knows about itself. They represent an objec
 
 Methods: things an object can do. When you design a class, you think about the data an object will need to know about itself, and you also design the methods that operate on that data.
 
+If you want to override a method that comes from a superclass, simply redefine the method in the subclass when it needs to change or extend the behavior of that method.
+
 ### REMEMBER
 A CLASS IS NOT AN OBJECT. It's used to construct them. It is the blueprint for the object.
 
